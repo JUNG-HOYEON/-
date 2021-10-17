@@ -1,0 +1,42 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1800px;
+	margin: 0 auto;
+	background-image: url("карта.jpg");
+	background-size: 100%;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav>img{
+	border-radius: 100%;
+	max-width: 190px;
+	margin-bottom: 30px;
+}
+
+hr{
+	width: 100%;
+	background-color: black;
+}
+
+p{
+	font-size: 46px;
+}
+
+img {
+	border-radius: 20%;
+	max-width: 30%;
+	margin-bottom: 80px;
+	padding: 20px;
+}
+
+a {
+	color: yellow;
+}

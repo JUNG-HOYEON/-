@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1800px;
+	margin: 0 auto;
+	background-image: url("фон игрок.jpg");
+	background-size: 100%;
+}	
+
+.advantages{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;	
+}
+
+.advantages>p>img{
+	max-width: 100%;
+}
+
+.palepink {
+	background-color: rgba(250, 218, 221, 1.0);
+	padding: 40px;
+}
+a {
+	color: black;
+}

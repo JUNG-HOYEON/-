@@ -23,7 +23,7 @@ body {
 .buttons {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 60px;
+	grid-template-rows: 30px;
 }
 
 .buttons > button, nav>button {
@@ -32,27 +32,27 @@ body {
 	text-shadow: 1px 1px 2px black
 }
 .buttons > button:nth-child(1) { 
-	background-color: cyan;
+	background-color: black;
 }
 
 .buttons > button:nth-child(2) {
-	background-color: pink;
+	background-color: black;
 }
 
 .buttons > button:nth-child(3) {
-	background-color: green;
+	background-color: black;
 }
 
 .buttons > button:nth-child(4) {
-	background-color: blue;
+	background-color: black;
 }
 
 .buttons > button:nth-child(5) {
-	background-color: purple;
+	background-color: black;
 }
 
 .buttons > button:nth-child(6) {
-	background-color: lightpink;
+	background-color:black;
 }
 
 
@@ -66,13 +66,14 @@ body>section{
 nav{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
-nav>button{
-	background-color: LightsaLmon;	
-	padding:20px 0;
-	margin-bottom: 5px;
-} 
+nav>img{
+	border-radius: 50%;
+	max-width: 100px;
+	margin-bottom: 20px;
+}
 
 main{
 	margin-left: 20px;
@@ -80,11 +81,22 @@ main{
 
 main>article{
 	position: relative;
+	text-align: center;
 }
 
 
 main>article>img{
 	width: 100%;
+}
+
+main>article>a>img{
+	width: 100%;
+} 
+
+nav>a>img{
+	border-radius: 50%;
+	max-width: 100px;
+	margin-bottom: 20px;
 }
 
 main>article>h1{
